@@ -1,0 +1,29 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "bienvenue" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}" class="logo"><strong><span class="toile">{{ site.title | slice: 0, 8 }}</span><span class="numerique">{{ site.title | slice: -9, 9}}</strong></span> <span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "bienvenue" %}
+		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.pages %}
+		    {% if page.layout != "bienvenue" and page.nav-menu == true %}
+		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#contact" class="button icon fa-phone fa-phone">Contact</a></li>		
+	</ul>
+</nav>

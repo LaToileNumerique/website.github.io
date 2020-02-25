@@ -1,0 +1,60 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="fr">
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+		<span class="background-image" role="img" aria-label="[La Toile Numérique la toile numerique site web internet webdesign savenay pontchateau saint nazaire]"> </span>
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Découvrir</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>La Toile Numérique en bref</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="#contact" class="button next">Prenez contact!</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

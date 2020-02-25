@@ -1,0 +1,153 @@
+
+<!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form id='contact_form' action="{{ "assets/php/send.php" | absolute_url }}" method="POST">
+				<div class="field half first">
+					<label for="name">Nom</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" />
+				</div>
+				<div class="field">
+					
+					<label for="subject">Sujet</label>
+					<!-- <input type='text' name='subject' id="subject"> -->
+					  <input type="text" list="subject" name="subject" id="subject">
+					  <datalist id="subject">
+						<option value="Demande de devis">
+						<option value="Demande création identité visuelle">
+						<option value="Demande création photo">
+						<option value="Demande référencement">
+						<option value="Autre">
+					  </datalist></li>		  
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea type="text" name="message" id="message" rows="6" placeholder="Décrivez ici votre besoin"></textarea>
+				</div>
+				<div class="8u$ 12u$(small)">
+					<input type="checkbox" id="check-human" name="check-human">
+					<label for="check-human">Je suis un humain [antispam]</label>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Envoyez c'est parti!" class="special" /></li>
+					<li><input type="reset" value="Effacer" /></li>
+				</ul>
+			</form>
+			<p id='thanks' class="button small" style='display: none;'>
+				Merci de nous avoir écrit, nous vous contacterons bientôt!
+			</p>			
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">{{ site.email }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Téléphone</h3>
+					<a href="#" id="telephone" class="button big " onclick="AppelerMoi();">Appelez-Moi</a>
+				</div>
+			</section>	
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Adresse</h3>
+					<span>
+<!-- 					{% if site.street_address %}
+					    {{ site.street_address }}<br />
+					{% endif %} -->
+					{% if site.zip_code %}
+					    {{ site.zip_code }},
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }}<br /> 
+					{% endif %}
+					{% if site.state %}
+					    {{ site.state }}
+					{% endif %}
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+		<div class="row">
+			<div class="6u 12u(small)">
+				<h4>Réseaux sociaux</h4>			
+				<ul class="icons">
+					{% if site.twitter_url %}
+					<li><a href="{{ site.twitter_url }}" rel="noopener" aria-label="twitter" class="icon alt fa-twitter fa-2x" target="_blank"><span class="label">Twitter</span></a></li>
+					{% endif %}
+					{% if site.googlebusiness_url %}
+					<li><a href="{{ site.googlebusiness_url }}" rel="noopener" aria-label="google business la toile numerique"  class="icon alt fa-google fa-2x" target="_blank"><span class="label">Google Business</span></a></li>
+					{% endif %}
+					{% if site.facebook_url %}
+					<li><a href="{{ site.facebook_url }}" rel="noopener" aria-label="facebook la toile numerique"  class="icon alt fa-facebook fa-2x" target="_blank"><span class="label">Facebook</span></a></li>
+					{% endif %}
+					{% if site.instagram_url %}
+					<li><a href="{{ site.instagram_url }}" rel="noopener" aria-label="instagram la toile numerique"  class="icon alt fa-instagram fa-2x" target="_blank"><span class="label">Instagram</span></a></li>
+					{% endif %}
+					{% if site.pinterest_url %}
+					<li><a href="{{ site.pinterest_url }}" rel="noopener" aria-label="pinterest la toile numerique" class="icon alt fa-pinterest fa-2x" target="_blank"><span class="label">Pinterest</span></a></li>
+					{% endif %}
+					{% if site.500px_url %}
+					<li><a href="{{ site.500px_url }}" rel="noopener" aria-label="500px la toile numerique" class="icon alt fa-500px fa-2x" target="_blank"><span class="label">500px</span></a></li>
+					{% endif %}
+					{% if site.gitlab_url %}
+					<li><a href="{{ site.gitlab_url }}" rel="noopener" class="icon alt fa-gitlab fa-2x" target="_blank"><span class="label">GitLab</span></a></li>
+					{% endif %}
+					{% if site.github_url %}
+					<li><a href="{{ site.github_url }}" rel="noopener" class="icon alt fa-github fa-2x" target="_blank"><span class="label">GitHub</span></a></li>
+					{% endif %}
+					{% if site.slack_url %}
+					<li><a href="{{ site.slack_url }}" rel="noopener" class="icon alt fa-slack fa-2x" target="_blank"><span class="label">Slack</span></a></li>
+					{% endif %}
+					{% if site.linkedin_url %}
+					<li><a href="{{ site.linkedin_url }}" rel="noopener" class="icon alt fa-linkedin fa-2x" target="_blank"><span class="label">LinkedIn</span></a></li>
+					{% endif %}
+				</ul>
+			</div>
+			<div class="6u 12u$(small)">
+				<h4>Plan du site</h4>
+				<ul class="site-plain">
+				{% for page in site.pages %}
+					{% if page.site-plain == true %}
+						<li style="list-style-type:none "><a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			</div>
+			</div>
+			<hr class="major" />
+			
+			<ul class="copyright">
+				<li>&copy; {{ site.title }} {{ site.subtitle }} - site développé avec <i class="fa fa-flask"></i> jekyll sans base de données ni cookies!  -  <a href="mentionslegales.html">Mentions légales</a></li>
+				<li>SIRET {{ site.siret }}</li>
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.validate.min.js" | absolute_url }}"></script>	
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
