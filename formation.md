@@ -1,11 +1,10 @@
 ---
-layout: landing
 title: Formation et Conseils informatiques
+layout: landing
 description: La Toile Numérique vous accompagne dans le monde digital
 image: assets/images/formation.jpg
 nav-menu: false
 ---
-
 
 <!-- Main -->
 <div id="main">

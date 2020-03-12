@@ -1,14 +1,15 @@
 ---
-layout: landing
 title: Création de contenu Photos Animations
+layout: landing
 titleseo: La toile numérique - Création de contenu Photos Animations
 description: Pour mettre en valeur votre activité
-descriptionseo: La toile numérique réalise des photos ou animations pour mettre en valeur votre site Internet.
+descriptionseo: La toile numérique réalise des photos ou animations pour mettre en
+  valeur votre site Internet.
 image: assets/images/contenu.jpg
-tags: photographie logo création savenay pontchateau blain saint-nazaire infographie site web internet webdesign
+tags: photographie logo création savenay pontchateau blain saint-nazaire infographie
+  site web internet webdesign
 nav-menu: false
 ---
-
 
 <!-- Main -->
 <div id="main">

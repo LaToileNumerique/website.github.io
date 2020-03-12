@@ -2,10 +2,11 @@
 title: Les Réalisations
 titleseo: La toile numerique - les créations et réalisations
 layout: landing
-description: 'Les dernières créations'
+description: Les dernières créations
 descriptionseo: Découvrez les derniers projets réalisés par la toile numérique.
 image: assets/images/realisations.jpg
-tags: création réalisation La toile numérique Savenay referencement site web internet référencement Blain Saint-Nazaire Internet webdesign Pontchateau
+tags: création réalisation La toile numérique Savenay referencement site web internet
+  référencement Blain Saint-Nazaire Internet webdesign Pontchateau
 site-plain: true
 nav-menu: true
 ---

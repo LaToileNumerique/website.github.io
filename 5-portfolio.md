@@ -2,11 +2,12 @@
 title: Photographies - Portfolio
 titleseo: La Toile Numerique Créations Photo
 layout: landing
-description: 'Découvrez quelques-unes de nos réalisations photo'
+description: Découvrez quelques-unes de nos réalisations photo
 descriptionseo: Découvrez le portfolio Photographies de la Toile Numerique
 image: assets/images/portfolio.jpg
 site-plain: true
-tags: photos photographie La Toile Numérique photo webdesign site web Savenay Pontchateau Blain Saint-Nazaire Internet 
+tags: photos photographie La Toile Numérique photo webdesign site web Savenay Pontchateau
+  Blain Saint-Nazaire Internet
 nav-menu: true
 ---
 

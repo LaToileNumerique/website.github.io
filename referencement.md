@@ -1,10 +1,12 @@
 ---
-layout: landing
 title: Référencement de votre site Web
+layout: landing
 titleseo: La toile numérique Référencement naturel SEO à Savenay 44260
 description: Gagnez en visibilité sur le web et augmentez votre clientèle
-descriptionseo: La toile numérique - Découvrez l'offre d'étude et de codage en référencement naturel SEO de la Toile Numerique sur Savenay 44260, Blain, Pontchateau, Saint-Nazaire.
-tags: referencement web internet SEO savenay blain saint-nazaire pontchateau saint etienne montluc 
+descriptionseo: La toile numérique - Découvrez l'offre d'étude et de codage en référencement
+  naturel SEO de la Toile Numerique sur Savenay 44260, Blain, Pontchateau, Saint-Nazaire.
+tags: referencement web internet SEO savenay blain saint-nazaire pontchateau saint
+  etienne montluc
 image: assets/images/referencement.jpg
 nav-menu: false
 ---

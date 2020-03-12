@@ -1,10 +1,18 @@
-# site settings
+---
 title: La Toile Numérique
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 subtitle: Un site internet utile et efficace
 email: thomas@latoilenumerique.fr
-description: Création de site Internet Web utile et efficace à Savenay 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.la-toile-numerique.fr # the base hostname & protocol for your site
+description: Création de site Internet Web utile et efficace à Savenay
+baseurl: ''
+url: https://www.la-toile-numerique.fr
 author: Thomas Juton
 street_address: Rue de la gare
 city: Savenay
@@ -13,31 +21,41 @@ zip_code: 44260
 country: France
 phone: 06 58 21 91 83
 siret: 880 132 824 00017
-
-maincolor: "2B243E"
-
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+maincolor: 2B243E
+tiles-source: pages
 tiles-count: 5
-
-# social settings
 500px_url: https://500px.com/thomasjuton
 facebook_url: https://fb.me/latoilenumerique
 googlebusiness_url: https://g.page/latoilenumerique?gm
 instagram_url: https://www.instagram.com/latoilenumerique
 linkedin_url: https://www.linkedin.com/in/thomas-juton
-
-# build settings
 markdown: kramdown
-
 sass:
   style: compressed
-
 compress_html:
   clippings: all
-  comments: [""]
-  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  comments:
+  - ''
+  endings:
+  - html
+  - head
+  - body
+  - li
+  - dt
+  - dd
+  - rt
+  - rp
+  - optgroup
+  - option
+  - colgroup
+  - caption
+  - thead
+  - tbody
+  - tfoot
+  - tr
+  - td
+  - th
   profile: false
   blanklines: false
-  ignore:
+  ignore: 
   envs: []

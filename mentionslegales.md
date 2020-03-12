@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Mentions légales
+layout: post
 site-plain: false
 show_tile: false
 sitemap: false

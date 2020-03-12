@@ -1,9 +1,10 @@
 ---
-layout: landing
 title: Qui est derrière la Toile ?
+layout: landing
 titleseo: La toile numérique - Qui est derrière la Toile ?
 description: Valeurs et compétences
-descriptionseo: La toile numerique - un accompagnement humain de proximité dans votre projet de site internet web.
+descriptionseo: La toile numerique - un accompagnement humain de proximité dans votre
+  projet de site internet web.
 image: assets/images/quiestce.jpg
 tags: webdesign freelance creation site internet savenay
 site-plain: true

@@ -1,14 +1,15 @@
 ---
-layout: landing
 title: Maintenance et mise à jour
+layout: landing
 titleseo: La toile numérique - Maintenance et mise à jour
-description: Pour rendre durable votre site Web, optez pour les offres de maintenance et de mise à jour
-descriptioseo: La toile numérique propose un service de maintenance et mise à jour pour rendre durable votre site Internet. 
+description: Pour rendre durable votre site Web, optez pour les offres de maintenance
+  et de mise à jour
+descriptioseo: La toile numérique propose un service de maintenance et mise à jour
+  pour rendre durable votre site Internet.
 image: assets/images/maintenance.jpg
-tags: maintenance site internet web securite 
+tags: maintenance site internet web securite
 nav-menu: false
 ---
-
 
 <!-- Main -->
 <div id="main">

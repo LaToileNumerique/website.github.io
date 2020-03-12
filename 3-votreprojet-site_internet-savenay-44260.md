@@ -1,12 +1,14 @@
 ---
-layout: landing
 title: Une idée, un projet ?
-titleseo : La toile numerique - un projet de site internet à Savenay et ailleurs
+layout: landing
+titleseo: La toile numerique - un projet de site internet à Savenay et ailleurs
 description: Le processus de création d'un site et ma méthode de travail
-descriptionseo: La toile numérique - Décourvrez le processus et la méthode de travail de création d'un site Internet / Web de la Toile Numérique.
+descriptionseo: La toile numérique - Décourvrez le processus et la méthode de travail
+  de création d'un site Internet / Web de la Toile Numérique.
 image: assets/images/grue.jpg
 site-plain: true
-tags: projet La toile numérique création site web internet référencement Savenay Pontchateau Blain Saint-Nazaire Internet referencement webdesign
+tags: projet La toile numérique création site web internet référencement Savenay Pontchateau
+  Blain Saint-Nazaire Internet referencement webdesign
 nav-menu: true
 ---
 

@@ -1,13 +1,15 @@
 ---
 title: Services et produits
-titleseo : La toile numérique - Services et produits à Savenay.
+titleseo: La toile numérique - Services et produits à Savenay.
 layout: landing
 tag: services
 description: Découvrez tous les services et produits de la toile numérique
-descriptionseo: La toile numérique propose ses services de création de site Internet, de référencement naturel SEO et autres prestations à Savenay 44260.
+descriptionseo: La toile numérique propose ses services de création de site Internet,
+  de référencement naturel SEO et autres prestations à Savenay 44260.
 image: assets/images/services.jpg
 site-plain: true
-tags: services produits La toile numérique création site web Savenay Pontchateau Blain Saint-Nazaire Internet webdesign
+tags: services produits La toile numérique création site web Savenay Pontchateau Blain
+  Saint-Nazaire Internet webdesign
 nav-menu: true
 ---
 

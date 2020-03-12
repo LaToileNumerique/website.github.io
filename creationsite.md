@@ -1,14 +1,16 @@
 ---
-layout: landing
 title: Création Site Internet
+layout: landing
 titleseo: La toile numerique - Création site internet web à Savenay
-description: La toile numérique est spécialisée dans la création et refonte de site Internet.
-descriptionseo: Découvrez l'offre de réalisation de site web / Internet à Savenay, Pontchateau, Blain, Saint-Nazaire de la toile numerique.
+description: La toile numérique est spécialisée dans la création et refonte de site
+  Internet.
+descriptionseo: Découvrez l'offre de réalisation de site web / Internet à Savenay,
+  Pontchateau, Blain, Saint-Nazaire de la toile numerique.
 image: assets/images/creationsite.jpg
-tags: création conception savenay pontchateau blain saint-nazaire site web internet webdesign
+tags: création conception savenay pontchateau blain saint-nazaire site web internet
+  webdesign
 nav-menu: false
 ---
-
 
 <!-- Main -->
 <div id="main">

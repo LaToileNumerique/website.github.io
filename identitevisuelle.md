@@ -1,14 +1,15 @@
 ---
-layout: landing
 title: Création de votre identité visuelle
+layout: landing
 titleseo: La toile numerique Création Logo Identité visuelle
 description: Envie d'une nouvelle image de votre enseigne ou activité ?
-descriptionseo: La toile numérique réalise également votre identité visuelle, Logo, etc..
+descriptionseo: La toile numérique réalise également votre identité visuelle, Logo,
+  etc..
 image: assets/images/identitevisuelle.jpg
-tags: logo création savenay pontchateau blain saint-nazaire infographie site web internet webdesign
+tags: logo création savenay pontchateau blain saint-nazaire infographie site web internet
+  webdesign
 nav-menu: false
 ---
-
 
 <!-- Main -->
 <div id="main">
