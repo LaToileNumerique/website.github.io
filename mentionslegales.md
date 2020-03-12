@@ -1,5 +1,6 @@
 ---
 title: Mentions légales
+position: 13
 layout: post
 site-plain: false
 show_tile: false

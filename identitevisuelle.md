@@ -1,5 +1,6 @@
 ---
 title: Création de votre identité visuelle
+position: 11
 layout: landing
 titleseo: La toile numerique Création Logo Identité visuelle
 description: Envie d'une nouvelle image de votre enseigne ou activité ?

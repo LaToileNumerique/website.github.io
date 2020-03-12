@@ -1,5 +1,6 @@
 ---
 title: Référencement de votre site Web
+position: 2
 layout: landing
 titleseo: La toile numérique Référencement naturel SEO à Savenay 44260
 description: Gagnez en visibilité sur le web et augmentez votre clientèle

@@ -1,5 +1,6 @@
 ---
 title: Création de contenu Photos Animations
+position: 4
 layout: landing
 titleseo: La toile numérique - Création de contenu Photos Animations
 description: Pour mettre en valeur votre activité

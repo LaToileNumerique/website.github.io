@@ -1,5 +1,6 @@
 ---
 title: Qui est derrière la Toile ?
+position: 7
 layout: landing
 titleseo: La toile numérique - Qui est derrière la Toile ?
 description: Valeurs et compétences

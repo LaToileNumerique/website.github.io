@@ -1,5 +1,6 @@
 ---
 title: Services et produits
+position: 10
 titleseo: La toile numérique - Services et produits à Savenay.
 layout: landing
 tag: services

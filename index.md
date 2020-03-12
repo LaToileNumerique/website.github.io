@@ -1,5 +1,6 @@
 ---
 title: Accueil
+position: 12
 layout: bienvenue
 titleseo: La toile numérique - Création de site internet web à Savenay (44260)
 landing-title: La Toile Numérique

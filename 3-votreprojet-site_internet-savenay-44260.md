@@ -1,5 +1,6 @@
 ---
 title: Une idée, un projet ?
+position: 1
 layout: landing
 titleseo: La toile numerique - un projet de site internet à Savenay et ailleurs
 description: Le processus de création d'un site et ma méthode de travail

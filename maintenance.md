@@ -1,5 +1,6 @@
 ---
 title: Maintenance et mise à jour
+position: 0
 layout: landing
 titleseo: La toile numérique - Maintenance et mise à jour
 description: Pour rendre durable votre site Web, optez pour les offres de maintenance

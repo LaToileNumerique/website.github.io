@@ -1,5 +1,6 @@
 ---
 title: Formation et Conseils informatiques
+position: 6
 layout: landing
 description: La Toile Numérique vous accompagne dans le monde digital
 image: assets/images/formation.jpg
